@@ -204,6 +204,55 @@ header {
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
+/* Holiday Discount Section Styles */
+.holiday-discount {
+  margin: 0px 150px 0px 100px;
+  text-align: center;
+}
+.holiday-discount h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-discount h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+.holiday-discount-holiday {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-discount h5 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  width: 1068px;
+  line-height: 32px; /* 160% */
+}
+.holiday-discount > div {
+  display: flex;
+  background-image: url('images/girl.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-top: 64px;
+  height: 433px;
+}
+.holiday-discount-right-image {
+  height: 797;
+  width: 636px;
+  position: relative;
+}
+.holiday-discount-left-image {
+  margin-inline: 45px;
+}
 /* THE BEST GIFTS section styles */
 .best-gift-section {
   margin: 140px 150px 0px 100px;
@@ -347,4 +396,8 @@ footer {
   margin-bottom: 120px;
   font-weight: 500;
   line-height: 40px; /* 166.667% */
+}
+footer > hr {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
 }
